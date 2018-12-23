@@ -1,0 +1,218 @@
+
+{
+	"buildFiles" : [ "D:/source/PinyinIME/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\92155\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\source\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"engine-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "engine",
+			"buildCommand" : "C:\\Users\\92155\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\source\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target engine",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/dictbuilder.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/dictlist.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/dicttrie.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/lpicache.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/mystdlib.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/ngram.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/searchutility.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/spellingtable.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/spellingtrie.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/splparser.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/utf16char.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot   -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/utf16reader.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64/libengine.a",
+			"toolchain" : "3630086827"
+		},
+		"jni_pinyinime-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "jni_pinyinime",
+			"buildCommand" : "C:\\Users\\92155\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\source\\PinyinIME\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target jni_pinyinime",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/android/com_android_inputmethod_pinyin_PinyinDecoderService.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/dictbuilder.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/dictlist.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/dicttrie.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/lpicache.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/matrixsearch.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/mystdlib.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/ngram.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/pinyinime.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/searchutility.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/spellingtable.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/spellingtrie.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/splparser.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/userdict.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/utf16char.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/utf16reader.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot  -Djni_pinyinime_EXPORTS -ID:\\source\\PinyinIME\\app\\src\\main\\cpp\\src\\main\\cpp\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\soft\\android-ndk-r16b-windows-x86_64\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/source/PinyinIME/app/src/main/cpp/share/sync.cpp",
+					"workingDirectory" : "D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "D:/source/PinyinIME/app/build/intermediates/cmake/debug/obj/x86_64/libjni_pinyinime.so",
+			"toolchain" : "3630086827"
+		}
+	},
+	"toolchains" : 
+	{
+		"3630086827" : 
+		{
+			"cCompilerExecutable" : "C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/soft/android-ndk-r16b-windows-x86_64/android-ndk-r16b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

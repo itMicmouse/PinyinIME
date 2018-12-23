@@ -1,0 +1,4 @@
+D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/jni_pinyinime.dir
+D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/engine.dir
+D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+D:/source/PinyinIME/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
