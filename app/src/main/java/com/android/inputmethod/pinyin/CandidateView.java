@@ -37,6 +37,7 @@ import android.view.View;
 /**
  * View to show candidate list. There two candidate view instances which are
  * used to show animation when user navigates between pages.
+ * 候选词视图
  */
 public class CandidateView extends View {
     /**
@@ -278,7 +279,9 @@ public class CandidateView extends View {
     }
 
     public void setDecodingInfo(DecodingInfo decInfo) {
-        if (null == decInfo) return;
+        if (null == decInfo) {
+            return;
+        }
         mDecInfo = decInfo;
         mPageNoCalculated = -1;
 
@@ -318,7 +321,9 @@ public class CandidateView extends View {
      */
     public void showPage(int pageNo, int activeCandInPage,
             boolean enableActiveHighlight) {
-        if (null == mDecInfo) return;
+        if (null == mDecInfo) {
+            return;
+        }
         mPageNo = pageNo;
         mActiveCandInPage = activeCandInPage;
         if (mEnableActiveHighlight != enableActiveHighlight) {
@@ -335,14 +340,18 @@ public class CandidateView extends View {
     }
 
     public void enableActiveHighlight(boolean enableActiveHighlight) {
-        if (enableActiveHighlight == mEnableActiveHighlight) return;
+        if (enableActiveHighlight == mEnableActiveHighlight) {
+            return;
+        }
 
         mEnableActiveHighlight = enableActiveHighlight;
         invalidate();
     }
 
     public boolean activeCursorForward() {
-        if (!mDecInfo.pageReady(mPageNo)) return false;
+        if (!mDecInfo.pageReady(mPageNo)) {
+            return false;
+        }
         int pageSize = mDecInfo.mPageStart.get(mPageNo + 1)
                 - mDecInfo.mPageStart.get(mPageNo);
         if (mActiveCandInPage + 1 < pageSize) {
@@ -407,12 +416,16 @@ public class CandidateView extends View {
     }
 
     private boolean calculatePage(int pageNo) {
-        if (pageNo == mPageNoCalculated) return true;
+        if (pageNo == mPageNoCalculated) {
+            return true;
+        }
 
         mContentWidth = getMeasuredWidth() - mPaddingLeft - mPaddingRight;
         mContentHeight = (int) ((getMeasuredHeight() - mPaddingTop - mPaddingBottom) * 0.95f);
 
-        if (mContentWidth <= 0 || mContentHeight <= 0) return false;
+        if (mContentWidth <= 0 || mContentHeight <= 0) {
+            return false;
+        }
 
         int candSize = mDecInfo.mCandidatesList.size();
 
@@ -438,7 +451,9 @@ public class CandidateView extends View {
                 int itemPos = pStart + pSize;
                 String itemStr = mDecInfo.mCandidatesList.get(itemPos);
                 float itemWidth = mCandidatesPaint.measureText(itemStr);
-                if (itemWidth < MIN_ITEM_WIDTH) itemWidth = MIN_ITEM_WIDTH;
+                if (itemWidth < MIN_ITEM_WIDTH) {
+                    itemWidth = MIN_ITEM_WIDTH;
+                }
 
                 itemWidth += mCandidateMargin * 2;
                 itemWidth += mSeparatorDrawable.getIntrinsicWidth();
@@ -482,7 +497,9 @@ public class CandidateView extends View {
         // The invisible candidate view(the one which is not in foreground) can
         // also be called to drawn, but its decoding result and candidate list
         // may be empty.
-        if (null == mDecInfo || mDecInfo.isCandidatesListEmpty()) return;
+        if (null == mDecInfo || mDecInfo.isCandidatesListEmpty()) {
+            return;
+        }
 
         // Calculate page. If the paging information is ready, the function will
         // return at once.
@@ -570,7 +587,9 @@ public class CandidateView extends View {
     private String getLimitedCandidateForDrawing(String rawCandidate,
             float widthToDraw) {
         int subLen = rawCandidate.length();
-        if (subLen <= 1) return rawCandidate;
+        if (subLen <= 1) {
+            return rawCandidate;
+        }
         do {
             subLen--;
             float width = mCandidatesPaint.measureText(rawCandidate, 0, subLen);
